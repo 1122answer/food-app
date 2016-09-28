@@ -1,0 +1,133 @@
+@charset="UTF-8";
+
+.sort-nav a{width: 118px;
+	        height: 54px;
+	        border:2px solid #ff9344;
+	        border-radius: 20px;
+	        text-align: center;
+	        line-height: 54px;
+	        display: inline-block;
+	        margin: 0 179px 0 23px; 
+	        color: black;
+}
+.city{width: 158px;
+      height: 54px;
+      border: 2px solid #ff9344;
+      border-radius: 5px;
+      line-height: 54px;
+      text-indent: 14px;
+      background: url(../images/icon-02.png) no-repeat 95%;
+      margin: 0 20px 0 0 ;
+      float: right;
+      overflow: hidden;
+}
+.choses{
+	margin-top: 19px;
+
+}
+.chose li{float: left;
+	     width:152px;
+	     text-align: center;
+	     margin-left: 32px;
+
+}
+.chose li:first-child{
+	     margin-left: 25px;
+}
+.chose li a{display: inline-block;
+	     color: black;
+}
+.roll{
+	margin-top: 14px;
+}
+.roll li span{
+	   width: 18px;
+	   height: 18px;	   
+	   border-radius:50%;
+	   background:#ffc9a1;
+       float: left;
+       margin-left: 8px;
+
+}
+.roll li:first-child span{margin-left: 324px;
+	    background:#ff9344;
+}
+.cate{
+	margin-top: 17px;
+}
+.cate-nav li:first-child{
+	background: url(../images/pic-204.png)	no-repeat 30px;
+	padding-left:90px;
+	font:30px/46px '微软雅黑';
+	float: left;
+}
+.cate-nav li:last-child{
+	background: url(../images/icon-04.png)	no-repeat 75%;
+	padding-right:54px;
+	font:24px/46px '微软雅黑';
+	float: right;
+}
+.cate-pic{margin-top: 36px;
+}
+.cate-pic li{margin-left: 57px;
+	  float: left;
+}
+.cate-pic li:first-child{margin-left: 24px;
+}
+.cate-pic a{width: 132px;
+            height: 133px;
+            display: inline-block;
+}
+.sport{
+	margin-top: 17px;
+}
+.sport-nav li:first-child{
+	background: url(../images/pic-209.png)	no-repeat 30px;
+	padding-left:90px;
+	font:30px/46px '微软雅黑';
+	float: left;
+}
+.sport-nav li:last-child{
+	background: url(../images/icon-04.png)	no-repeat 75%;
+	padding-right:54px;
+	font:24px/46px '微软雅黑';
+	float: right;
+}
+.sport-pic{margin-top: 36px;
+}
+.sport-pic li{margin-left: 57px;
+	  float: left;
+}
+.sport-pic li:first-child{margin-left: 24px;
+}
+.sport-pic a{width: 132px;
+            height: 133px;
+            display: inline-block;
+}
+.movie{
+	margin-top: 17px;
+	padding-bottom: 150px;
+}
+.movie-nav li:first-child{
+	background: url(../images/pic-214.png)	no-repeat 30px;
+	padding-left:90px;
+	font:30px/46px '微软雅黑';
+	float: left;
+}
+.movie-nav li:last-child{
+	background: url(../images/icon-04.png)	no-repeat 75%;
+	padding-right:54px;
+	font:24px/46px '微软雅黑';
+	float: right;
+}
+.movie-pic{margin-top: 36px;
+}
+.movie-pic li{margin-left: 57px;
+	  float: left;
+}
+.movie-pic li:first-child{margin-left: 24px;
+}
+.movie-pic a{width: 132px;
+            height: 133px;
+            display: inline-block;
+}

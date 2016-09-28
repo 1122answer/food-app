@@ -1,0 +1,181 @@
+ @charset="utf-8";
+ 
+.top-nav a:first-child{width: 118px;
+	        height: 54px;
+	        border:2px solid #ff9344;
+	        border-radius: 20px;
+	        text-align: center;
+	        line-height: 54px;
+	        display: inline-block;
+	        margin: 0 220px 0 23px; 
+	        color: black;
+}
+.top-nav a:last-child{
+      margin: 0 20px 0 0 ;
+      float: right;
+}
+.enter{
+       margin: 20px 0 26px 0;
+}
+.enter img{float: left;}
+.enter-set{float: left;
+           margin:36px 0 0 40px;
+}
+.enter-set h4{
+      font: 30px '微软雅黑';
+      font-weight: normal;
+      margin-bottom: 20px;
+}
+.enter-set p{
+           font: 26px '微软雅黑';
+          color:#cecece;
+}
+.enter a{ font-size: 87px;
+          margin-right: 20px;
+          color: black;
+           float: right;
+
+}
+
+.mine li{  
+         float: left;
+}
+.mine li p{margin: 100px 0 0 45px;
+}
+.mine li a{
+        width: 194px;
+        height: 149px;
+        display: inline-block;
+        color: black;
+}
+.mine li:last-child a{
+           left: 30px;
+}
+.mine li:first-child{              
+  background: url(../images/pic-402.png) no-repeat;
+  margin: 0 60px 0 22px; 
+}
+.mine li:nth-child(2){               
+  background: url(../images/pic-403.png) no-repeat;
+}
+.mine li:last-child{              
+  background: url(../images/pic-404.png) no-repeat;
+  margin: 0 22px 0 60px; 
+}
+.hot{
+      margin-top: 30px;
+}
+.hot1-nav{padding-bottom: 94px;}
+.hot1-nav li:first-child{
+      padding-left:23px;    
+      float: left;
+}
+.hot1-nav li:nth-child(2){font:30px/74px '微软雅黑';
+                         float: left;
+                         padding-left: 38px;
+}
+.hot1-nav li:nth-child(3){
+      padding: 24px 20px 0 0;      
+      float: right;
+}
+.hot1-nav li:last-child{font:24px /74px '微软雅黑';
+                        margin-right: 10px;
+                         float: right;
+}
+.hot2-nav{padding-bottom: 94px;}
+.hot2-nav li:first-child{
+      padding-left:23px;    
+      float: left;
+}
+.hot2-nav li:nth-child(2){font:30px/74px '微软雅黑';
+                         float: left;
+                         padding-left: 26px;
+}
+.hot2-nav li:nth-child(3){
+      padding: 24px 20px 0 0;      
+      float: right;
+}
+.hot2-nav li:last-child{font:24px /74px '微软雅黑';
+                        margin-right: 10px;
+                         float: right;
+}
+.hot3-nav{padding-bottom: 94px;}
+.hot3-nav li:first-child{
+      padding-left:23px;    
+      float: left;
+}
+.hot3-nav li:nth-child(2){font:30px/74px '微软雅黑';
+                         float: left;
+                         padding-left: 0px;
+}
+.hot3-nav li:nth-child(3){
+      padding: 24px 20px 0 0;      
+      float: right;
+}
+.hot3-nav li:last-child{font:24px /74px '微软雅黑';
+                        margin-right: 10px;
+                         float: right;
+}
+.hot4-nav{padding-bottom: 135px;}
+.hot4-nav li:first-child{
+      padding-left:23px;    
+      float: left;
+}
+.hot4-nav li:nth-child(2){font:30px/74px '微软雅黑';
+                         float: left;
+                         padding-left: 36px;
+}
+.hot4-nav li:nth-child(3){
+      padding: 24px 20px 0 0;      
+      float: right;
+}
+.hot4-nav li:last-child{font:24px /74px '微软雅黑';
+                        margin-right: 10px;
+                         float: right;
+}
+.hot5-nav{padding-bottom: 94px;}
+.hot5-nav li:first-child{
+      padding-left:23px;    
+      float: left;
+}
+.hot5-nav li:nth-child(2){font:30px/74px '微软雅黑';
+                         float: left;
+                         padding-left: 38px;
+}
+.hot5-nav li:nth-child(3){
+      padding: 24px 20px 0 0;      
+      float: right;
+}
+.hot5-nav li:last-child{font:24px /74px '微软雅黑';
+                        margin-right: 10px;
+                         float: right;
+}
+.hot6-nav{padding-bottom: 94px;}
+.hot6-nav li:first-child{
+      padding-left:23px;    
+      float: left;
+}
+.hot6-nav li:nth-child(2){font:30px/74px '微软雅黑';
+                         float: left;
+                         padding-left: 38px;
+}
+.hot6-nav li:nth-child(3){
+      padding: 24px 20px 0 0;      
+      float: right;
+}
+.hot6-nav li:last-child{font:24px /74px '微软雅黑';
+                        margin-right: 10px;
+                         float: right;
+}
+.button button{width: 148px;
+               height: 76px;
+               border-radius:38px;
+               background: #ff9344; 
+               font: 24px '微软雅黑';
+               color: white;
+               float: left;
+               margin-bottom: 150px;
+}
+.button button:first-child{
+           margin:0 244px 0 110px;
+}

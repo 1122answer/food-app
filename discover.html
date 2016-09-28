@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>发现</title>
+<meta name="viewport" content="width=750px,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="./style/reset.css">
+	<link rel="stylesheet" href="./style/base.css">
+	<link rel="stylesheet" href="./style/discover.css">
+	<script type="text/javascript">
+	( function(doc,win) {
+	 	     var docEl =doc.documentElement,
+	 	     resizeEvt = 'orientationchange' in window 7 'orientationchange':'resize',
+	 	     recalc=function()}{
+	 	     	var clientWidth = docEl.clientWidth;
+	 	     	if (!clientWidth) return;
+	 	     	if (clientWidth>=750){
+	 	     		//docEl.style fontSize ='100px';
+	 	     	}else{
+	 	     		docEl.style.fontSize =100*(clientWidth/750)+'px';
+	 	     	}
+	 	     };
+	 	// Abort if browser does not support addEventListener
+	 	if (!doc.addEventListener) return;
+	 	win.addEventListener(resizeEvt,recalc,false);
+	 	doc.addEventListener('DOMContentloaded',recalc,false);
+	 	})(document ,window);
+	</script>
+</head>
+<body>
+<div class="body">
+   	 <header>
+   	 <div class="find-nav">
+   	 		<a href="home-page.html">Back</a><span>发现</span>
+   	 	 <div class="city">
+   	 		<ul>
+   	 		<li>广州市</li>
+   	 		<li>广州市</li>
+   	 		<li>广州市</li>
+   	 		<li>广州市</li>
+   	 		<li>广州市</li>
+   	 		</ul>
+   	 	</div>
+   	 </div>
+    <div class="search">
+   	 		<input type="search" value="" placeholder="请输入商品名称">
+   	 </div>
+   	 <div class="finding">
+   	 	<h4>大家都在搜</h4>
+   	 	<ul>
+   	 		<li><a href="">寿司</a></li>
+   	 		<li><a href="">羽毛球</a></li>
+   	 		<li><a href="">火锅</a></li>
+   	 		<li><a href="">游泳馆</a></li>
+   	 		<li><a href="">电影</a></li>
+   	 		<li><a href="">周黑鸭</a></li>
+   	 		<li><a href="">KTV</a></li>
+   	 		<li><a href="">肯德基</a></li>
+   	 	</ul>
+   	 </div>
+   	 <div class="clear"></div>
+ </header>
+  <section class="hot">
+    	<div>
+    		<ul class="hot-nav">
+    			<li>热门搜索</li>
+    			<li>更多</li>
+    		</ul>
+    		<div class="clear"></div>
+    		<ul class="hot-pic">
+    		   <li><a href=""><img src="./images/pic-301.png" alt=""></a></li>
+    		   <li><a href=""><img src="./images/pic-302.png" alt=""></a></li>
+               <li><a href=""><img src="./images/pic-303.png" alt=""></a></li>
+               <li><a href=""><img src="./images/pic-304.png" alt=""></a></li>
+    		</ul>
+    		<div class="clear"></div>
+    	</div>
+    </section>
+ <section class="recommend">
+    	<div>
+    		<ul class="recommend-nav">
+    			<li>推荐搜索</li>
+    			<li>更多</li>
+    		</ul>
+    		<div class="clear"></div>
+    		<ul class="recommend-pic">
+    		   <li><a href=""><img src="./images/pic-306.png" alt=""></a></li>
+    		   <li><a href=""><img src="./images/pic-307.png" alt=""></a></li>
+               <li><a href=""><img src="./images/pic-308.png" alt=""></a></li>
+         	</ul>
+    		<div class="clear"></div>
+    	</div>
+    </section>
+    <section class="recommend">
+    	<div>
+    		<ul class="recommend-nav">
+    			<li>推荐搜索</li>
+    			<li>更多</li>
+    		</ul>
+    		<div class="clear"></div>
+    		<ul class="recommend-pic">
+    		   <li><a href=""><img src="./images/pic-306.png" alt=""></a></li>
+    		   <li><a href=""><img src="./images/pic-307.png" alt=""></a></li>
+               <li><a href=""><img src="./images/pic-308.png" alt=""></a></li>
+         	</ul>
+    		<div class="clear"></div>
+    	</div>
+    </section>
+     <nav>
+   	  <ul>
+   	  	  <li><a href="home-page.html"><img src="./images/icon-06.png" alt=""><span>首页</span></a></li>
+  	  	  <li><a href="classify.html"><img src="./images/icon-07.png" alt="">分类</a></li>
+   	  	  <li><a href="discover.html"><img src="./images/icon-008.png" alt="">发现</a></li>
+   	  	  <li><a href="mine.html"><img src="./images/icon-09.png" alt="">我的</a></li>
+   	  </ul>
+   	  <div class="clear"></div>
+   </nav>
+ </div>  	 		
+</body>
+</html>
